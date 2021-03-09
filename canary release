@@ -1,1 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2021-03-09T08:27:59.261Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" version="14.4.3" etag="7d-jKbjpsGmU9ew_KDK7" type="github"><diagram id="JUx_dfA0qu3z5k8WYRtY">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-03-09T08:41:00.116Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.72 Safari/537.36 Edg/89.0.774.45" etag="hH2PSF2nCwJwiUskh0GY" version="14.4.3" type="github">
+  <diagram id="JUx_dfA0qu3z5k8WYRtY" name="Page-1">
+    <mxGraphModel dx="705" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="400" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-1" value="Usuários" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="166" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-2" value="Roteador" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="174" y="171" width="70" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-3" value="Função Serverless" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="362" y="268" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-4" value="Aplicação Antiga" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="362" y="68" width="150" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-5" value="Maioria dos usuários &lt;br&gt;&lt;font color=&quot;#5c5c5c&quot;&gt;(95%)&lt;/font&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;shadow=0;" edge="1" parent="1" source="nB-GnzMhSqiSsIS_PhLi-2" target="nB-GnzMhSqiSsIS_PhLi-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="282" y="266" as="sourcePoint" />
+            <mxPoint x="332" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-6" value="alguns usuários &lt;br&gt;&lt;font color=&quot;#5c5c5c&quot;&gt;(5%)&lt;/font&gt;" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;shadow=0;" edge="1" parent="1" source="nB-GnzMhSqiSsIS_PhLi-2" target="nB-GnzMhSqiSsIS_PhLi-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="282" y="266" as="sourcePoint" />
+            <mxPoint x="332" y="216" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-7" value="" style="endArrow=classic;html=1;shadow=0;" edge="1" parent="1" source="nB-GnzMhSqiSsIS_PhLi-1" target="nB-GnzMhSqiSsIS_PhLi-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="144" y="286" as="sourcePoint" />
+            <mxPoint x="194" y="236" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nB-GnzMhSqiSsIS_PhLi-8" value="" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;shadow=0;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="89" y="161" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
